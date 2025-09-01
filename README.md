@@ -51,11 +51,55 @@ The work was part of a group project at *Luleå University of Technology*.
 ---
 
 ## 🚀 Future Work  
-- Collect more data across multiple athletes (current dataset = 1 participant, ~60 throws).  
-- Explore Spiking Neural Networks (SNNs) for continuous time-series data.  
+- Extend dataset to multiple athletes (current dataset = 1 participant, ~60 throws).  
+- Apply Spiking Neural Networks (SNNs) for continuous time-series data.  
 - Improve EMG max-activation tests for sport-specific validity.  
-- Integrate additional force plate and timing features.  
+- Explore real-time feedback applications for athletes.  
 
 ---
 
 ## 📂 Repository Structure  
+```
+├── data/ # Sample datasets or instructions where to get them
+├── src/ # Code for preprocessing, models, training
+│ ├── preprocessing/
+│ ├── models/
+│ └── visualization/
+├── notebooks/ # Jupyter notebooks for analysis
+├── results/ # Plots, trained model outputs
+├── requirements.txt # Python dependencies
+└── README.md
+```
+
+---
+
+## 🧑‍🤝‍🧑 Team & Contributions  
+This project was developed by:  
+- **Andreas G. Björtoft**  
+- **Felix S. Woxblom**  
+- **Oscar A. Östensson**  
+
+**My contributions included:**  
+- Collaborated on the implementation and training of the ANN model in PyTorch  
+- Preprocessed EMG signals (normalization, synchronization, and feature preparation)  
+- Preprocessed and analyzed force plate data for integration with other modalities  
+- Contributed to report writing, data visualization, and final project presentation
+
+---
+
+## ⚙️ Tech Stack  
+- **Python 3.10**: PyTorch, NumPy, Matplotlib, Scikit-learn  
+- **Matlab 2024b**: Slice Sampling regression  
+- **Qualisys QTM** (motion capture)  
+- **Noraxon EMG system**  
+- **Kistler force plate**
+- **GameProofer Disc**
+
+---
+
+## 🔧 Installation  
+Clone the repository and install dependencies:  
+```bash
+git clone https://github.com/AndreasBjortoft/disc-golf-throw-prediction.git
+cd disc-golf-throw-prediction
+pip install -r requirements.txt
