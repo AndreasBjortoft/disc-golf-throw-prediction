@@ -84,7 +84,7 @@ This project was developed by:
 - Preprocessed EMG signals (normalization, synchronization, and feature preparation)  
 - Preprocessed and analyzed force plate data for integration with other modalities  
 - Contributed to report writing, data visualization, and final project presentation
-
+- Provided disc golf expertise for experimental design and data interpretation
 ---
 
 ## ⚙️ Tech Stack  
