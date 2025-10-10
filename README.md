@@ -101,5 +101,5 @@ This project was developed by:
 
 For a detailed explanation of the experimental setup, preprocessing methods, and model development, see the full report:
 
-📄 [Neural Network-Based Prediction of Disc Golf Throw Speed (PDF)](./Report_disc_throw.pdf)
+📄 [Neural Network-Based Prediction of Disc Golf Throw Speed (PDF)](./Report_discgolf_project.pdf)
 
