@@ -60,14 +60,10 @@ The work was part of a group project at *Luleå University of Technology*.
 
 ## 📂 Repository Structure  
 ```
-├── data/ # Sample datasets or instructions where to get them
+├── Report_discgolf_project.pdf #report of the project
 ├── src/ # Code for preprocessing, models, training
-│ ├── preprocessing/
 │ ├── models/
 │ └── visualization/
-├── notebooks/ # Jupyter notebooks for analysis
-├── results/ # Plots, trained model outputs
-├── requirements.txt # Python dependencies
 └── README.md
 ```
 
