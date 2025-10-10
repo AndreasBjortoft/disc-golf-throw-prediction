@@ -97,9 +97,9 @@ This project was developed by:
 
 ---
 
-## 🔧 Installation  
-Clone the repository and install dependencies:  
-```bash
-git clone https://github.com/AndreasBjortoft/disc-golf-throw-prediction.git
-cd disc-golf-throw-prediction
-pip install -r requirements.txt
+## Documentation
+
+For a detailed explanation of the experimental setup, preprocessing methods, and model development, see the full report:
+
+📄 [Neural Network-Based Prediction of Disc Golf Throw Speed (PDF)](./Report_disc_throw.pdf)
+
